@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+      }
+
+      body {
+        background-color: #f3f3ec;
+      }
+
+      header {
+        background-color: #6B8E5C;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px;
+        align-items: center;
+      }
+
+
+      .logo {
+        font-weight: bold;
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 50px;
+      }
+
+      .caixa {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .caixa1 {
+        margin-top: 20px;
+        margin-left: 60px;
+      }
+
+      .caixa1 h1 {
+        font-size: 40px;
+        margin-top: 10px;
+      }
+
+      .caixa1 p {
+        margin-top: 25px;
+        color: #6B8E5C;
+        font-weight: bold;
+      }
+
+      .botao button{
+        width: 400px;
+        background-color: #9e885d;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 10px;
+        border: 0;
+      }
+
+      .botao {
+        margin-top: 40px;
+        margin-right: 200px;
+      }
+
+      .caixa2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 938px ;
+      }
+
+      .forma {
+        background-color: #d0d9bb;
+        width: 200px;
+        width: 400px;
+        border: solid black 2px;
+        border-radius: 10px;
+        padding: 15px;
+      }
+
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .inputs input {
+        width: 300px;
+        height: 45px;
+        margin-bottom: 15px;
+        border: solid black 1px;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .input1 {
+        margin-top: 10px;
+      }
+
+      .input3 {
+        margin-bottom: 20px;
+      }
+
+      .botao2 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+
+      .botao2 button {
+        background-color: #6B8E5C;
+        height: 40px;
+        width: 150px;
+        border-radius: 5px;
+      }
+
+      .botao2 button a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .botao3 {
+        margin-left: 90px;
+        margin-top: 50px;
+      }
+
+      .botao3 button {
+        background-color: #9e885d;
+        width: 250px;
+        border: 0;
+        padding: 5px;
+      }
+
+      .botao3 button a {
+        color: white;
+        font-size: 25px;
+        text-decoration: none;
+      }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo">EcoColeta</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="contato.html">Contato</a>
+      <a href="servicos.html">Serviços</a>
+    </nav>
+  </header>
+
+  <section class="caixa">
+    <form action="" class="caixa1">
+        <h1>Página Coleta</h1>
+        <p>Solicite ajuda de uma empresa para coletar <br>o lixo gerado em um evento social</p>
+    </form>
+
+    <form action="" class="botao">
+        <button>Solicitar Coleta</button>
+    </form>
+  </section>
+
+  <section class="caixa2">
+    <form action="" class="forma">
+        <div class="inputs">
+            <input placeholder="Nome da empresa" class="input1" type="text">
+            <input placeholder="Endereço para coleta" type="text">
+            <input placeholder="Tipo de lixo" class="input3" type="text">
+        </div>
+    <div class="botao2">
+            <button><a href="coletaCorreto.html">Solicitar coleta</a></button>
+        </div>
+    </form>
+     <form action="" class="botao3">
+        <button><a href="servicos.html">Voltar para serviços</a></button>
+    </form>
+  </section>
+
+</body>
+</html>

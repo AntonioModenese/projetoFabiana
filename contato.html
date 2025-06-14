@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoColeta</title>
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+    background-color: #f3f3ec;
+    }
+
+    header {
+    background-color: #6B8E5C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    }
+
+    .logo {
+    font-weight: bold;
+    font-size: 1.8rem;
+    }
+
+    nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 50px;
+    }
+
+    .contato {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo1 {
+        width: 130px;
+        height: 130px;
+    }
+
+    .intro {
+        margin-top: 20px;
+        margin-right: 10%;
+    }
+
+    .intro h1 {
+    font-size: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    }
+
+    .eco {
+    color: #5e7f51;
+    font-weight: bold;
+    }
+
+    .coleta {
+    color: black;
+    font-weight: bold;
+    }
+
+    .intro p {
+    margin-top: 50px;
+    font-size: 1.1rem;
+    color: #1e531e;
+    max-width: 400px;
+    font-weight: 500;
+    }
+
+    .titulo {
+        color: black;
+        font-weight: bold;
+        font-size: 4rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .caixa1 {
+        margin-top: 50px;
+        margin-left: 5%;
+    }
+
+    .paragrafos{
+        color: #5e7f51;
+        font-weight: bold;
+    }
+
+    .paragrafos p{
+        margin-bottom: 30px;
+    }
+
+    .priPar {
+        margin-top: 35px;
+    }
+
+    .barra{
+        display: flex;
+        justify-content: center;
+    }
+
+    .perguntas{
+        width: 1500px;
+        background-color: #d0d9bb;
+        height: 90px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        border: solid black 2px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .pf {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .caixas {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-top: 70px;
+    }
+
+    .priCaixa p {
+        width: 250px;
+    }
+
+    .priCaixa h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .espaco {
+        height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">EcoColeta</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="contato.html">Contato</a>
+      <a href="servicos.html">Serviços</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="contato">
+        <form action="" class="caixa1">
+            <h1 class="titulo">Contato</h1>
+            <div class="paragrafos">
+                <p class="priPar">Telefone para contato: (27)99487-2248</p>
+                <p>Email: ecoColeta@gmail.com</p>
+            </div>
+        </form>
+        <section class="intro">
+            <h1><span class="eco">Eco</span><img class="logo1" src="imagens/logo.png" alt=""></h1>
+            <div style="height: 0px;"></div>
+            <h1><span class="coleta">Coleta</span></h1>
+        </section>
+    </section>
+    
+    <section class="barra">
+        <div class="perguntas">
+            <h1 class="pf">Perguntas Frequentes</h1>
+        </div>
+    </section>
+
+    <section class="caixas">
+        <form action="" class="priCaixa">
+            <h1>Quantas coletas posso <br> solicitar em um mês?</h1>
+            <p>Quantas quiser! Nós contratamos empresas de coleta
+            para realizar o serviço de limpeza para você, então tudo depende da disponibilidade da outra empresa</p>
+        </form>
+        <form action="" class="priCaixa">
+            <h1>Quantas coletas posso <br> solicitar em um mês?</h1>
+            <p>Quantas quiser! Nós contratamos empresas de coleta
+            para realizar o serviço de limpeza para você, então tudo depende da disponibilidade da outra empresa</p>
+        </form>
+        <form action="" class="priCaixa">
+            <h1>Quantas coletas posso <br> solicitar em um mês?</h1>
+            <p>Quantas quiser! Nós contratamos empresas de coleta
+            para realizar o serviço de limpeza para você, então tudo depende da disponibilidade da outra empresa</p>
+        </form>
+    </section>
+    <div class="espaco"></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+      }
+
+      body {
+        background-color: #f3f3ec;
+      }
+
+      header {
+        background-color: #6B8E5C;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 30px;
+        align-items: center;
+      }
+
+
+      .logo {
+        font-weight: bold;
+        font-size: 1.8rem;
+      }
+
+      nav a {
+        color: white;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 50px;
+      }
+
+      .caixas {
+        margin-top: 40px;
+        margin-left: 60px;
+      }
+
+      .caixas h1{
+        font-size: 40px;
+      }
+
+      .caixas p {
+        color: #6B8E5C;
+        font-weight: bold;
+        margin-top: 20px;
+      }
+
+      .box {
+        background-color: #d0d9bb;
+        width: 500px;
+        height: 400px;
+        border: solid black 2px;
+      }
+
+      .boxs{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+      }
+
+      #box1 {
+        margin-left: 60px;
+        padding: 15px;
+        border-radius: 20px;
+      }
+
+      #box2 {
+        margin-right: 60px;
+        padding: 15px;
+        border-radius: 20px;
+      }
+
+      .botao {
+        display: flex;
+        justify-content: end;
+        margin-top: 40px;
+        margin-right: 60px;
+        margin-bottom: 100px;
+      }
+
+      .botao button {
+        background-color: #9e885d;
+        font-size: 20px;
+        padding: 10px;
+      }
+
+      .botao button a {
+        color: white;
+        text-decoration: none;
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+    <div class="logo">EcoColeta</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="contato.html">Contato</a>
+      <a href="servicos.html">Serviços</a>
+    </nav>
+  </header>
+
+  <form action="" class="caixas">
+    <h1>Histórico de coletas</h1>
+    <p>Veja todas as coletas que você ja solicitou e <br>que foram realizadas</p>
+  </form>
+
+  <section class="boxs">
+    <form action="" class="box" id="box1">
+      <h1>1º coleta</h1>
+      <br>
+      <p>-Dia que foi solicitada: 
+      <br> 17/02/2024
+      <br>
+      <br>
+      <br>
+      -Valor: 
+      R$ 1200,00
+      <br>
+      <br>
+      <br>
+      -Dia em que foi realizado a coleta: 
+      18/02/2024
+      <br> 
+      <br> 
+      <br>
+      -Empresa que realizou a  <br>coleta:
+      Corpus Saneamento e Obras
+      </p>
+    </form>
+      
+    <form action="" class="box" id="box2">
+      <h1>2º coleta</h1>
+      <br>
+      <p>-Dia que foi solicitada: 
+      <br> 21/03/2025
+      <br>
+      <br>
+      <br>
+      -Valor: 
+      R$ 800,00
+      <br>
+      <br>
+      <br>
+      -Dia em que foi realizado a coleta: 
+      21/03/2025
+      <br> 
+      <br> 
+      <br>
+      -Empresa que realizou a  <br>coleta:
+      Corpus Saneamento e Obras
+      </p>
+    </form>
+  </section>
+
+  <div class="botao">
+    <button><a href="servicos.html">Voltar para serviços</a></button>
+  </div>
+</body>
+</html>

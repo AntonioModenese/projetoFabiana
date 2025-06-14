@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoColeta</title>
+  <link rel="stylesheet" href="style1.css" />
+  <style>
+    .caixas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixas button {
+        margin-bottom: 50px;
+        background-color: #6b8e5c;
+        border: solid black 0.5px;
+        border-radius: 10px;
+        height: 80px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .caixas button a{
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">EcoColeta</div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="contato.html">Contato</a>
+      <a href="servicos.html">Serviços</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h1><span class="eco">Eco</span><img class="logo1" src="imagens/logo.png" alt=""></h1>
+      <div style="height: 0px;"></div>
+      <h1><span class="coleta">Coleta</span></h1>
+      <p>
+        Somos uma empresa que busca facilitar o processo de coleta de resíduos gerados em eventos de instituições sociais
+      </p>
+    </section>
+
+    <section class="login-box">
+      <div action="" class="caixas">
+          <button><a href="coleta.html">Solicitar Coleta</a></button>
+          <button><a href="histColeta.html">Histórico de <br>coletas</a></button>
+          <button><a href="coletasSolicitadas.html">Coletas solicitadas</a></button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f3f3ec;
+}
+
+header {
+  background-color: #6B8E5C;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  align-items: center;
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  align-items: center;
+}
+
+
+.intro {
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.intro h1 {
+  font-size: 6rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.eco {
+  color: #5e7f51;
+  font-weight: bold;
+}
+
+.coleta {
+  color: black;
+  font-weight: bold;
+}
+
+.intro p {
+  margin-top: 50px;
+  font-size: 1.1rem;
+  color: #1e531e;
+  max-width: 400px;
+  font-weight: 500;
+}
+
+.login-box {
+  background-color: #d2d9bb;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  min-width: 350px;
+  border: 2px solid #333;
+  margin-right: 10%;
+  height: 400px;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #2d2d2d;
+  font-weight: bold;
+}
+
+.login-box input {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.login-btn {
+  background-color: #98835f;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.ou {
+  text-align: center;
+  margin: 15px 0;
+  color: #333;
+}
+
+.register-btn {
+  background-color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  border: 1px solid #ccc;
+}
+
+.register-btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.aqui {
+  color: #127415;
+  font-weight: bold;
+}
+
+
+.logo1 {
+    width: 130px;
+    height: 130px;
+}
+
+.cadastro {
+  text-decoration: none;
+  color: #5e7f51;
+}
